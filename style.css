@@ -1,0 +1,62 @@
+*{
+    margin : 0 ; 
+    padding : 0 ; 
+  
+}
+
+
+body {
+    background-color: aliceblue;
+    min-height: 100vh; 
+    margin: 0;
+
+    background-image:  url("https://images.wallpapersden.com/image/download/cyberpunk-2077-yellow-background_bGpqbmqUmZqaraWkpJRmbmdlrWZlbWU.jpg");
+   background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    gap: 20px;     
+    padding: 20px;          
+}
+.box{
+     background-color: #000 ; 
+     border: 2px solid rgb(111, 74, 74);
+     color: #f8ef02;
+     font-size: 2rem;
+     font-weight: 600;
+     padding: 10px;
+     transition: all 0.07s ease;
+     font-family: "Orbitron";
+     text-align: center;
+    }
+    
+.playing {
+    transform: scale(1.1); 
+    border-color: #f8ef02;
+    box-shadow: 0 0 15px #f8ef02;
+    text-shadow: 0 0 5px #f8ef02;
+
+
+}
+.label{
+     color: yellow;
+    text-transform: uppercase;
+    text-shadow: 
+        2px 2px #ff003c,   /* Neon Red offset */
+        -2px -2px #00f0ff; /* Neon Cyan offset */
+    letter-spacing: 2px;
+}
+
+ 
